@@ -1,19 +1,19 @@
 import { Component } from '@angular/core';
 import { NavbarComponent } from '../navbar/navbar.component';
 import { MapComponent } from '../map/map.component';
-import { HomeCardComponent } from '../home-card/home-card.component';
+import { CardComponent } from '../card/card.component';
 
 @Component({
-  selector: 'app-home',
+  selector: 'app-map-card',
   standalone: true,
   imports: [
     NavbarComponent,
     MapComponent,
-    HomeCardComponent,
+    CardComponent,
   ],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  templateUrl: './map-card.component.html',
+  styleUrl: './map-card.component.css'
 })
-export class HomeComponent {
+export class MapCardComponent {
 
 }

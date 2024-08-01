@@ -42,3 +42,14 @@ button {
   color: green;
   background-color: #333;
 }
+
+.banner {
+  display: flex;
+  background-color: #D90166;
+  margin-top: 20px;
+}
+
+h1 {
+  margin: 0px;
+  padding: 5px;
+}

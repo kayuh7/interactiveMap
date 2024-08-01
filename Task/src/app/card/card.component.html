@@ -1,0 +1,21 @@
+<div id="card">
+  <h1 *ngFor="let country of countryData">
+    <b>{{ country.name }}</b> <!-- Display country name -->
+  </h1>
+  <li *ngFor="let country of countryData">
+    <b>Capital:</b> {{ country.capitalCity }} <!-- Display country name -->
+  </li>
+  <li *ngFor="let country of countryData">
+    <b>Region:</b> {{ country.region.value }} <!-- Display country name -->
+  </li>
+  <li *ngFor="let country of countryData">
+    <b>Income Level:</b> {{ country.incomeLevel.value }} <!-- Display country name -->
+  </li>
+  <li *ngFor="let country of countryData">
+    <b>Longitude:</b> {{ country.longitude }} <!-- Display country name -->
+  </li>
+  <li *ngFor="let country of countryData">
+    <b>Latitude:</b> {{ country.latitude }} <!-- Display country name -->
+  </li>
+
+</div>
