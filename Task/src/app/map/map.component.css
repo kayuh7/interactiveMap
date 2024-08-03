@@ -3,3 +3,11 @@
   width: 70vw;
 }
 
+path {
+  cursor: pointer;
+  pointer-events: all;
+}
+
+path:hover {
+  fill: #FF9999;
+}
