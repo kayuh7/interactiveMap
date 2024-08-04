@@ -20,6 +20,7 @@ import { MapCardComponent } from './map-card/map-card.component';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
+
 export class AppComponent {
   title = 'D280';
 }
